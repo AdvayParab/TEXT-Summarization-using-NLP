@@ -9,7 +9,7 @@ Python 3.x
 spaCy
 spacy English language model (en_core_web_sm)
 
->> Usage
+Usage:
    The code processes text through the following steps:
    1.)Tokenization and preprocessing
    2.)Word frequency calculation
