@@ -11,24 +11,41 @@ spacy English language model (en_core_web_sm)
 
 Usage:
    The code processes text through the following steps:
+   
    1.)Tokenization and preprocessing
+
    2.)Word frequency calculation
+   
    3.)Sentence scoring
+   
    4.)Summary generation
    
 Features:
 )Removes stopwords and punctuation,
+
 )Calculates normalized word frequencies,
+
 )Scores sentences based on word importance,
+
 )Generates summaries of configurable length (default 30% of original text).
 
 Implementation Details:
+
 1.)Text Processing
+
 )Uses spaCy for tokenization and sentence segmentation,
+
 )Removes stopwords and punctuation,
+
 )Normalizes word frequencies.
 
+
 2.)Scoring Mechanism
+
 )Calculates word frequencies,
+
 )Assigns scores to sentences based on word importance,
+
 )Uses heapq for selecting top-scoring sentences.
+
+
